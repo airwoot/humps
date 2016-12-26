@@ -79,7 +79,7 @@
     return obj === Object(obj);
   };
   var _isArray = function(obj) {
-    return toString.call(obj) == '[object Array]';
+    return Array.isArray';
   };
   var _isDate = function(obj) {
     return toString.call(obj) == '[object Date]';
